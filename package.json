@@ -1,0 +1,46 @@
+{
+  "name": "pino-rest",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "bin": {
+    "pino-rest": "bin/www"
+  },
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "co": "^4.6.0",
+    "debug": "^2.2.0",
+    "jade": "~1.11.0",
+    "koa": "^1.1.2",
+    "koa-bodyparser": "^2.0.1",
+    "koa-json": "^1.1.1",
+    "koa-logger": "^1.3.0",
+    "koa-onerror": "^1.2.1",
+    "koa-router": "^5.3.0",
+    "koa-static": "^1.5.2",
+    "koa-views": "^3.1.0",
+    "pino": "^4.7.1",
+    "yargs": "^8.0.2"
+  },
+  "description": "Live log service with pinojs Edit",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indatawetrust/pino-rest.git"
+  },
+  "keywords": [
+    "pinojs",
+    "log",
+    "service",
+    "rest"
+  ],
+  "author": "indatawetrust",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/indatawetrust/pino-rest/issues"
+  },
+  "homepage": "https://github.com/indatawetrust/pino-rest#readme"
+}
